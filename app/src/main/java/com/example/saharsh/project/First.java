@@ -61,7 +61,7 @@ public class First extends AppCompatActivity {
                 {
                     SQLiteDatabase data=openOrCreateDatabase("net",MODE_PRIVATE,null);
                     data.execSQL("create table if not exists camp(name varchar, password varchar,email varchar)");
-                    String s4="select * from camp where name='"+s1+"' and password='"+s2+"'and email='"+s3+"'";
+                    String s4="select * from camp where name='"+s1+"' and password='"+s2+"'";
                     Cursor cursor = data.rawQuery(s4,null);
                     if(cursor.getCount()>0)
                     {

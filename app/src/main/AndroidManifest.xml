@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".Second" />
         <activity android:name=".Third" />
-        <activity android:name=".Media"></activity>
+        <activity android:name=".Media" />
+        <activity android:name=".Camera" />
+        <activity android:name=".QuizPlayer" />
     </application>
 
 </manifest>

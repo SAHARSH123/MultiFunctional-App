@@ -47,5 +47,22 @@ public class Third extends AppCompatActivity {
 
             }
         });
+        b7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Third.this,Camera.class);
+                startActivity(i);
+                finish();
+            }
+        });
+        b8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Third.this,QuizPlayer.class);
+                startActivity(i);
+                finish();
+
+            }
+        });
     }
 }

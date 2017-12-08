@@ -24,53 +24,63 @@
     <Button
         android:background="@drawable/btn2"
         android:layout_width="140dp"
+        android:textAllCaps="false"
 
         android:layout_height="wrap_content"
         android:text="Media Player"
         android:id="@+id/button5"
         android:layout_alignBottom="@+id/imageView"
         android:layout_alignRight="@+id/button7"
-        android:layout_alignEnd="@+id/button7" />
+        android:layout_alignEnd="@+id/button7"
+        android:textSize="15dp" />
 
     <Button
         android:background="@drawable/btn2"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text=" Calculator "
+        android:textAllCaps="false"
         android:id="@+id/button6"
         android:layout_alignTop="@+id/button5"
         android:layout_alignLeft="@+id/button8"
-        android:layout_alignStart="@+id/button8" />
+        android:layout_alignStart="@+id/button8"
+        android:textSize="18dp" />
 
     <Button
         android:background="@drawable/btn2"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:text="       Camera     "
+        android:textAllCaps="false"
         android:id="@+id/button7"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="48dp" />
+        android:layout_marginBottom="48dp"
+        android:textSize="17dp" />
 
     <Button
         android:background="@drawable/btn2"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
-        android:text="Light Gesture"
+        android:textAllCaps="false"
+        android:text="Special Function"
         android:id="@+id/button8"
         android:layout_alignBottom="@+id/button7"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textSize="16dp" />
 
     <Button
         android:background="@drawable/btn2"
-        android:layout_width="140dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
         android:text="Back"
         android:id="@+id/button9"
         android:layout_alignTop="@+id/imageView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textSize="17dp" />
 
 </RelativeLayout>
