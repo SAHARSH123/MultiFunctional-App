@@ -18,7 +18,7 @@ public class First extends AppCompatActivity {
     AnimationDrawable animationDrawable;
     Button b1,b2;
     EditText e1,e2;
-    String s3;
+    String s3 ,s5;
 
 
     @Override
