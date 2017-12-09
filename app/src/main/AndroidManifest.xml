@@ -20,6 +20,8 @@
         <activity android:name=".Media" />
         <activity android:name=".Camera" />
         <activity android:name=".QuizPlayer" />
+        <activity android:name=".Effect" />
+        <activity android:name=".Calculator"></activity>
     </application>
 
 </manifest>

@@ -2,6 +2,7 @@ package com.example.saharsh.project;
 
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
+import android.hardware.*;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -36,6 +37,16 @@ public class QuizPlayer extends AppCompatActivity {
                 Intent i=new Intent(QuizPlayer.this,Third.class);
                 startActivity(i);
                 finish();
+            }
+        });
+        b16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i=new Intent(QuizPlayer.this,Effect.class);
+                startActivity(i);
+                finish();
+
             }
         });
 

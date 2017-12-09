@@ -64,5 +64,14 @@ public class Third extends AppCompatActivity {
 
             }
         });
+        b6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(Third.this,Calculator.class);
+                startActivity(i);
+                finish();
+
+            }
+        });
     }
 }
