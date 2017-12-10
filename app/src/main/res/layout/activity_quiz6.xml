@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/my_background"
+    android:id="@+id/myLayout"
+    tools:context="com.example.saharsh.project.Quiz6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:background="#fbf7f7"
+        android:textAlignment="center"
+        android:textColor="#1a1818"
+        android:textSize="30dp" />
+
+    <Button
+        android:background="@drawable/btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="browser1"
+        android:text="Google"
+        android:id="@+id/button25"
+        android:layout_below="@+id/textView9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:textSize="17dp" />
+
+    <Button
+        android:background="@drawable/btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Facebook"
+        android:onClick="browser2"
+        android:id="@+id/button26"
+        android:layout_below="@+id/button25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:textSize="17dp" />
+
+    <Button
+        android:background="@drawable/btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Youtube"
+        android:onClick="browser3"
+        android:id="@+id/button27"
+        android:layout_below="@+id/button26"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="17dp" />
+
+    <Button
+        android:background="@drawable/btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/button28"
+        android:layout_below="@+id/button27"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textSize="17dp" />
+</RelativeLayout>

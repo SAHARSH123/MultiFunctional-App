@@ -49,6 +49,17 @@ public class QuizPlayer extends AppCompatActivity {
 
             }
         });
+        b15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent i=new Intent(QuizPlayer.this,Quiz1.class);
+                startActivity(i);
+                finish();
+
+
+            }
+        });
 
     }
 }
